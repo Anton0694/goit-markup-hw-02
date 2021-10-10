@@ -10,7 +10,7 @@ body {
 
     font-family: Roboto, sans-serif;
 }
-h2 {
+.h2-portfolio {
     
     font-weight: 700;
     font-size: 18px;
@@ -18,11 +18,38 @@ h2 {
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
-p {
+.h2-studio {
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+.p-portfolio {
 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.p-studio-title {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.p-studio-team {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -40,7 +67,14 @@ p {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-
+.special-logo {
+   
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--header-accent-color);
+}
 .menu-link {
     font-weight: 500;
     font-size: 14px;
@@ -62,6 +96,7 @@ p {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
     
 }
 .main-btn-studio {
@@ -73,7 +108,8 @@ p {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--dark-side-color)
+    color: var(--primary-text-color);
+    cursor: pointer;
 }
 .maps-link {
     
@@ -107,4 +143,24 @@ p {
     text-transform: uppercase;
     color: var(--dark-side-color);
     background: #2F303A;
+}
+
+.h3-studio-title {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.h3-studio-team {
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
