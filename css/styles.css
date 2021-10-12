@@ -112,7 +112,9 @@ body {
     cursor: pointer;
 }
 .maps-link {
-    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -121,7 +123,9 @@ body {
 }
 
 .footer-adress-link {
-
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
