@@ -10,7 +10,7 @@ body {
 
     font-family: Roboto, sans-serif;
 }
-.h2-portfolio {
+.title-portfolio {
     
     font-weight: 700;
     font-size: 18px;
@@ -18,7 +18,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
-.h2-studio {
+.title-studio {
   
     font-weight: 700;
     font-size: 36px;
@@ -28,7 +28,7 @@ body {
     color: var(--primary-text-color);
 
 }
-.p-portfolio {
+.text-portfolio {
 
     font-weight: 400;
     font-size: 16px;
@@ -36,7 +36,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-.p-studio-title {
+.text-studio-title {
     
     font-weight: 400;
     font-size: 14px;
@@ -44,7 +44,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-.p-studio-team {
+.text-studio-team {
     
     font-weight: 400;
     font-size: 16px;
@@ -145,7 +145,7 @@ body {
     background: #2F303A;
 }
 
-.h3-studio-title {
+.about-studio-title {
     
     font-weight: 700;
     font-size: 14px;
@@ -155,7 +155,7 @@ body {
     color: var(--primary-text-color);
 }
 
-.h3-studio-team {
+.about-studio-team {
   
     font-weight: 500;
     font-size: 16px;
