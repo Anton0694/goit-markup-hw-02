@@ -16,7 +16,6 @@ body {
 }
 .title-portfolio {
     
-    
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -57,27 +56,42 @@ body {
 }
 .link {
     text-decoration: none;
+    color: var(--accent-color);
 }
 
 .logo{
-    
+
+    font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-color);
 }
 .special-logo {
    
-    
+    font-family: Raleway;
     font-size: 26px;
     line-height: 31px;
     color: var(--header-accent-color);
+}
+
+.footer-logo {
+    
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--dark-side-color);
 }
 .menu-link {
     
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    
 }
+.menu-link:focus {
+    color: var(--accent-color);
+
+}
+
 .header-adress-link {
     
     line-height: 1.14;
@@ -85,42 +99,53 @@ body {
     color: var(--secondary-text-color);
 }
 
-.main-btn-portfolio {
+.header-adress-link:focus{
+    color: var(--accent-color);
+}
+
+.main-btn-portfolio:hover,
+.main-btn-portfolio:focus  {
     
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-side-color);
+    background: var(--accent-color);
     cursor: pointer;
+
+    }
+.main-btn-studio:hover, 
+.main-btn-studio:focus {
     
-}
-.main-btn-studio {
-    
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color);
+    color: var(--dark-side-color);
+    background: var(--accent-color);
     cursor: pointer;
+   
+    
 }
-.maps-link {
+.maps-link{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    
     line-height: 1.71;
     color: var(--dark-side-color);
+}
+.maps-link:focus {
+    color: var(--accent-color);
 }
 
 .footer-adress-link {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-adress-link:focus {
+    color: var(--accent-color);
 }
 
 .footer {
@@ -156,7 +181,6 @@ body {
     color: var(--primary-text-color);
 }
 
-.link:focus .link:hover
-{
-    color: #2196F3;
-}
+
+
+    
