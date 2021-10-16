@@ -4,6 +4,7 @@
     --secondary-text-color: #757575;
     --header-accent-color: #000000;
     --dark-side-color: #FFFFFF;
+    --primary-color: #E5E5E5;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    background-color: #E5E5E5;
+    background-color: var(--primary-color)
 }
 .title-portfolio {
     
@@ -70,7 +71,7 @@ body {
    
     font-family: Raleway;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--header-accent-color);
 }
 
@@ -87,7 +88,7 @@ body {
     color: var(--primary-text-color);
     
 }
-.menu-link:focus {
+.menu-link:hover {
     color: var(--accent-color);
 
 }
@@ -99,10 +100,20 @@ body {
     color: var(--secondary-text-color);
 }
 
-.header-adress-link:focus{
+.header-adress-link:hover{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
 }
 
+.main-btn-portfolio {
+    
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--primary-text-color);
+}
 .main-btn-portfolio:hover,
 .main-btn-portfolio:focus  {
     
@@ -112,10 +123,11 @@ body {
     color: var(--dark-side-color);
     background: var(--accent-color);
     cursor: pointer;
+    
 
     }
-.main-btn-studio:hover, 
-.main-btn-studio:focus {
+.main-btn-studio, 
+.main-btn-studio {
     
     font-size: 16px;
     line-height: 1.87;
@@ -123,7 +135,10 @@ body {
     color: var(--dark-side-color);
     background: var(--accent-color);
     cursor: pointer;
-   
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
     
 }
 .maps-link{
@@ -133,10 +148,9 @@ body {
     line-height: 1.71;
     color: var(--dark-side-color);
 }
-.maps-link:focus {
+.maps-link:hover {
     color: var(--accent-color);
 }
-
 .footer-adress-link {
     font-family: Roboto;
     font-style: normal;
@@ -144,16 +158,13 @@ body {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-adress-link:focus {
+.footer-adress-link:hover {
     color: var(--accent-color);
 }
-
 .footer {
     background-color: #2F303A;
    }
-
 .main-title {
-    
     
     font-size: 44px;
     line-height: 1.36;
@@ -163,18 +174,14 @@ body {
     color: var(--dark-side-color);
     background: #2F303A;
 }
-
 .about-studio-title {
-    
     
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
 }
-
 .about-studio-team {
   
-    
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
